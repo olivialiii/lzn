@@ -1,8 +1,17 @@
+
+
 conda -V
 conda update conda
-conda create -n yourenvname python=3.10 anaconda
-conda activate yourenvname
+conda create -n HW1 python=3.10 anaconda
+conda activate HW1
 
+cd UCB-MFE-python-preprogram-2025
+ls
+cd Homeworks
+ls
+cd HW1
+ls
+conda install --file requirements.txt
 
 Create a file in Homeworks/HW1/<FIRST_NAME>_<LAST_NAME>/anaconda.txt, write on the command you used to achieve the following:
 Create a virtual environment called HW1 with Python 3.10 (intentionally not 3.12)
@@ -11,5 +20,11 @@ Install the package with the requirement file in Homeworks/HW1/requirements.txt
 conda install --file Homeworks/HW1/requirements.txt
 
 Downgrade the requests library to version to 2.24.0
+
+conda install -n HW1 requests=2.24.0
+
+
 Upgrade the requests library to the latest
+conda update -n HW1 requests
+
 What's the latest version of requests?
