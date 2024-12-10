@@ -28,3 +28,5 @@ Upgrade the requests library to the latest
 conda update -n HW1 requests
 
 What's the latest version of requests?
+conda search requests
+2.32.3  
