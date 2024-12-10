@@ -1,0 +1,9 @@
+
+
+
+Create a file in Homeworks/HW1/<FIRST_NAME>_<LAST_NAME>/anaconda.txt, write on the command you used to achieve the following:
+Create a virtual environment called HW1 with Python 3.10 (intentionally not 3.12)
+Install the package with the requirement file in Homeworks/HW1/requirements.txt
+Downgrade the requests library to version to 2.24.0
+Upgrade the requests library to the latest
+What's the latest version of requests?
